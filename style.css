@@ -1,6 +1,58 @@
 body {
-    padding-right: 15%;
-    padding-left: 15%;
+    align-items: center;
+    background-image: url(2-forest.jpeg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    color: darkgreen;
+    font-size: 85px;
+    font-family: 'DM Serif Display', serif;
+}
+p {
+    font-family: sans-serif;
+    color: hsl(75, 4%, 38%);
+    font-size: 15px;
+    overflow: hidden;
+    padding: 10px;
+}
+#center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    padding: 10px;
+    float: left;
+}
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    overflow: hidden;
+}
+#park{
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    overflow: hidden;
+}
+a {
+    font-family: sans-serif;
+    font-size: 15px;
+    overflow: hidden;
+    padding: 12px;
+}
+button {
+    font-family: sans-serif;
+    font-size: 12px;
 }
 
 .topnav {
@@ -29,7 +81,6 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 100px;
-    font-size: 80px;
 }
 .home .slogan {
     margin-top: 0px;
@@ -47,6 +98,8 @@ body {
 .about .title {
     margin-top: 0px;
     margin-bottom: 0px;
+    font-size: 2em;
+    font-weight: bold;
 }
 .about .description {
     margin-top: 0px;
@@ -57,4 +110,14 @@ body {
 
 .parks {
     text-align: center;
+    
+
 }
+
+.parks .title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
