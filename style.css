@@ -7,3 +7,20 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.topnav {
+    background-color: #0077b5;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.topnav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+.topnav a:hover {
+    color: #0077b5;
+}
