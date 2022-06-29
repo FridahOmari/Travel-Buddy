@@ -8,6 +8,14 @@ body {
     background-size: cover;
 }
 
+
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    overflow: hidden;
+}
+
 .topnav {
     background-color: #0077b5;
     padding: 20px;
