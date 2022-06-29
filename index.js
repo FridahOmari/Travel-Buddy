@@ -17,3 +17,24 @@ function getParks() {
       renderParks()
     })
 }
+
+function renderParks() {
+  console.log("hello")
+  const parkDiv = document.getElementById('parks')
+  parkDiv.innerHTML = ' '
+  let filteredParks = parks.data
+  console.log(filteredParks)
+  for (let i = 0; i < filteredParks.length; i++) {
+    const ul = document.createElement('ul')
+    const img = document.createElement('img')
+    const descrip = document.createElement('p')
+    const directions = document.createElement('a')
+    directions.innerText = 'Get Directions'
+    directions.href = filteredParks[i].directionsUrl
+    directions.target = '_blank'
+    img.src = filteredParks[i].images[0].url
+    ul.innerText = filteredParks[i].fullName
+    descrip.innerText = filteredParks[i].description
+    parkDiv.append(img, ul, descrip, directions)
+  }
+}
