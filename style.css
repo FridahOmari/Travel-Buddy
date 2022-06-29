@@ -8,6 +8,13 @@ body {
     background-size: cover;
 }
 
+#app {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
 img {
     width: 150px;
     height: 150px;
@@ -16,6 +23,18 @@ img {
     float: left;
 }
 
+h1 {
+    color: darkgreen;
+    font-size: 85px;
+    font-family: 'DM Serif Display', serif;
+}
+p {
+    font-family: sans-serif;
+    color: hsl(75, 4%, 38%);
+    font-size: 15px;
+    overflow: hidden;
+    padding: 10px;
+}
 
 ul {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
