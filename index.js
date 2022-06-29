@@ -3,7 +3,6 @@ window.addEventListener('DOMContentLoaded', () => {
   getParks()
   addEventListeners()
 })
-
 // Fetch
 let parks
 function getParks() {
@@ -17,10 +16,8 @@ function getParks() {
       renderParks()
     })
 }
-
-var LIKES = 0
-
 // Render Parks Function
+var LIKES = 0
 function renderParks() {
   console.log("hello")
   const parkDiv = document.getElementById('parks')
@@ -42,10 +39,8 @@ function renderParks() {
     descrip.innerText = filteredParks[i].description
     parkDiv.append(img, ul, descrip, directions, liker)
     liker.addEventListener('click', likePark)
-
   }
 }
-
 const likePark = (e) => {
   const liker = e.target
   LIKES++
