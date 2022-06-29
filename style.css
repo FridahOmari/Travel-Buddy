@@ -24,3 +24,19 @@ body {
 .topnav a:hover {
     color: #0077b5;
 }
+
+.home {
+    height: 400px;
+    text-align: center;
+}
+
+.home .title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 100px;
+}
+.home .slogan {
+    margin-top: 0px;
+    padding-top: 10px;
+    
+}
