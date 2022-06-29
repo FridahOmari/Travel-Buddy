@@ -40,3 +40,22 @@ body {
     padding-top: 10px;
     
 }
+
+.about {
+    text-align: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    
+}
+
+.about .title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 2em;
+    font-weight: bold;
+}
+.about .description {
+    margin-top: 0px;
+    padding-top: 10px;
+    
+}
