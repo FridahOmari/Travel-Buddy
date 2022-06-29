@@ -8,6 +8,14 @@ body {
     background-size: cover;
 }
 
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    padding: 10px;
+    float: left;
+}
+
 
 ul {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
