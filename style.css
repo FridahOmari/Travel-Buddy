@@ -59,3 +59,16 @@ body {
     padding-top: 10px;
     
 }
+
+.parks {
+    text-align: center;
+    
+
+}
+
+.parks .title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 2em;
+    font-weight: bold;
+}
