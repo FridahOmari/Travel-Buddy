@@ -18,6 +18,9 @@ function getParks() {
     })
 }
 
+var LIKES = 0
+
+// Render Parks Function
 function renderParks() {
   console.log("hello")
   const parkDiv = document.getElementById('parks')
@@ -29,12 +32,23 @@ function renderParks() {
     const img = document.createElement('img')
     const descrip = document.createElement('p')
     const directions = document.createElement('a')
+    const liker = document.createElement('button')
+    liker.textContent = LIKES
     directions.innerText = 'Get Directions'
     directions.href = filteredParks[i].directionsUrl
     directions.target = '_blank'
     img.src = filteredParks[i].images[0].url
     ul.innerText = filteredParks[i].fullName
     descrip.innerText = filteredParks[i].description
-    parkDiv.append(img, ul, descrip, directions)
+    parkDiv.append(img, ul, descrip, directions, liker)
+    liker.addEventListener('click', likePark)
+
   }
+}
+
+const likePark = (e) => {
+  const liker = e.target
+  LIKES++
+  console.log(LIKES)
+  liker.textContent = LIKES
 }
